@@ -1,0 +1,190 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-block: 0.2rem;
+}
+
+
+
+h4 {
+    color: black;
+    font-size: 1.999rem;
+    text-align: center;
+}
+header { 
+    background-color:none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.logo-header {
+        width: 100px;
+    }
+
+
+button {
+        background-color: #B97A68;
+        color: white;
+        border-radius: 30px;
+  
+    }
+    
+.btn-large {
+        width: 300px;
+        height: 50px;
+        font-size: 21px; 
+        justify-content: center;   
+         
+    }
+    
+
+/* menu links */
+a.menu:link, a.menu:visited {
+    background: none;
+    color:black;
+    padding: 70px;
+}
+
+a.menu:hover {
+    color: #B97A68;
+}
+
+.icon {
+    color: black;
+}
+a.icon:link {
+    background: none;
+}
+
+a.icon:hover {
+    background-color: none;
+    color:black;
+    border-radius: 50%; 
+}
+
+img {
+    width: 100%;
+    border-radius: 1.5%;
+}
+
+.container {
+    display: flex;
+}
+
+#hero{
+    height: 50vh;
+    /* background-color: tomato; */
+    text-align: center;
+    background-image: url('../img/laura-briola-U2xT2CsNpOw-unsplash.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5%;
+}
+
+/* LINKS */
+a:link {
+    background-color: darkblue;
+    text-decoration: none;
+    padding: 10px
+
+}
+
+a:hover {
+    background-color: darkcyan;
+}
+
+a:visited {
+
+}
+
+a:active {
+    background-color: darkorange;
+}
+
+
+.card {
+    background-color: none;
+    padding: 20px;
+    /* border: 2px solid red; */
+    width: 500px;
+    
+    margin: 50px 30px 10px 30px;
+}
+
+#card {
+    justify-content: space-evenly;
+}
+
+.article {
+    width: 800px;
+    height: 50vh;
+    padding: 20px;
+   
+}
+
+/* #article {
+    justify-content: center;
+   
+} */
+
+.text {
+    text-align: justify;
+    font-size: 16px;
+    padding: 20px;
+    margin: 10px 100px;
+}
+
+footer {
+    height: 50vh;
+    height: 600px;
+    background-color: #F8EDEA;
+    /* border: 5px solid black;
+    margin: 100px; */
+    padding: 50px 100px;
+    position: absolute;
+    width: 1440px;
+    height: 332px;
+    left: 0px;
+    /* top: 2369px; */
+    
+}
+}
+
+
+
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* Tablet */
+
+@media only screen and (min-width:600px) and (max-width:767px) {
+    /* h1 {
+        background-color: blue;
+        font-size: 4.653rem;
+    } */
+
+}
+
+
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    /* h1 {
+        background-color:darkmagenta;
+        font-size: 5.653rem;
+    } */
+
+}
