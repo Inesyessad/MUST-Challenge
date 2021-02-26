@@ -24,27 +24,31 @@ header {
     background-color:none;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .logo-header {
-        width: 100px;
+        width: 200px;
     }
 
+.nav{
+    padding: 30px;
+}
 
 button {
         background-color: #B97A68;
         color: white;
         border-radius: 30px;
+        
   
     }
     
 .btn-large {
         width: 300px;
         height: 50px;
-        font-size: 21px; 
-        justify-content: center;   
-         
+        font-size: 18px; 
+        justify-content: center;     
+              
     }
     
 
@@ -155,7 +159,7 @@ footer {
     margin: 100px; */
     padding: 50px 100px;
     position: absolute;
-    width: 1440px;
+    width: 2000px;
     height: 332px;
     left: 0px;
     /* top: 2369px; */
