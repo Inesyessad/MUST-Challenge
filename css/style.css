@@ -85,6 +85,22 @@ img {
     display: flex;
 }
 
+.container img {
+min-height: 250px;
+
+object-fit: contain;
+
+}
+
+#culture {
+
+background: url('../img/markus-spiske-4W5WWKaxsKs-unsplash.jpg') center center;
+width: 100%;
+height: 300px;
+object-fit: contain;
+
+}
+
 #hero{
     height: 50vh;
     /* background-color: tomato; */
